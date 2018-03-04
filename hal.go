@@ -8,13 +8,14 @@ const (
 )
 
 type Canvas interface {
-	Begin()
-	End()
+
+	Clear(red, green, blue float32)
 
 	GetWidth() int
 	GetHeight() int
 
-	Clear(red, green, blue float32)
+	Begin()
+	End()
 
 	Paint(seeThru bool, left, top int, alphas []float32)
 
@@ -22,6 +23,7 @@ type Canvas interface {
 }
 
 type Graphics interface {
+
 	Clear(red, green, blue float32)
 
 	PushView(width, height int)
