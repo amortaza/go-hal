@@ -38,7 +38,7 @@ type HAL interface {
 	Start(
 		title string,
 
-		width, height int,
+		left, top, width, height int,
 
 		onAfterGL,
 		onLoop,
