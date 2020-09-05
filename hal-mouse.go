@@ -9,12 +9,12 @@ const (
 )
 
 const (
-	MouseCursor_Arrow MouseCursor = 1 + iota
-	MouseCursor_Horiz_Resize
-	MouseCursor_Vert_Resize
-	MouseCursor_IBeam
-	MouseCursor_CrossHair
-	MouseCursor_Hand
+	Mouse_Cursor_Arrow MouseCursor = 1 + iota
+	Mouse_Cursor_Horiz_Resize
+	Mouse_Cursor_Vert_Resize
+	Mouse_Cursor_IBeam
+	Mouse_Cursor_CrossHair
+	Mouse_Cursor_Hand
 )
 
 
