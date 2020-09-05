@@ -1,5 +1,8 @@
 # go-hal
 Hardware Abstract Layer (HAL) interface definition
+# Installation
+
+`go get -u github.com/amortaza/go-hal`
 
 # What does `go-hal` do?
 
