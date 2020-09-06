@@ -16,7 +16,7 @@ type HAL interface {
 		onMouseMove func(x, y int),
 		onMouseButton func(MouseButton, ButtonAction),
 
-		onKey func(KeyboardKey, ButtonAction, alt, ctrl, shift bool))
+		onKey func(key KeyboardKey, action ButtonAction, alt, ctrl, shift bool))
 
 	GetWindowDim()(width, height int)
 
